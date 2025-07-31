@@ -134,9 +134,8 @@ def main():
                 for filepath, count in sorted(raw_counts.items(), key=lambda x: x[1], reverse=True)[:args.top_files]:
                     rpt.write(f"- {filepath}: {count}\n")
                 rpt.write("\n")
-            rpt.write(f"## Histogram (top {args.hist_limit} files by raw lines)\n```\n")
+            rpt.write(f"## Histogram (top {args.hist_limit} files by raw lines)\n\n")
             rpt.write("\n".join(generate_histogram(raw_counts, limit=args.hist_limit)))
-            rpt.write("\n```\n")
         print(f"{COLOR_GREEN}Report written to {args.report}{COLOR_RESET}")
 
 if __name__ == "__main__":

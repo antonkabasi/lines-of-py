@@ -114,37 +114,38 @@ python lines_of_py.py \
 ```markdown
 # lines-of-py Report
 
-- Total lines: **34802**
-- Estimated hours (@50 LOC/hr): **696.0**
+- Total lines: **33656**
+- Estimated hours (@50 LOC/hr): **673.1**
 
 ## Top 5 files
-- /home/anton/anton-github-site/conf.py: 1415
 - /home/anton/pdfcompare/pdf_diff_with_metadata.py: 516
 - /home/anton/pdfcompare/pdf_compare_Backup.py: 427
 - /home/anton/measurements-sqlite/good stuff/calculations/calculate thermal conductivity from db.py: 421
 - /home/anton/measurements-sqlite/good stuff/make db/1 add measurements from all subfolders.py: 408
+- /home/anton/measurements-sqlite/good stuff/calculations/plot all thermal conductivities from db.py: 399
 
 ## Histogram (top 20 files by raw lines)
-/home/anton/anton-github-site/conf.py    | ████████████████████████████████████████ 1415
-.../pdfcompare/pdf_diff_with_metadata.py | ██████████████ 516
-.../pdfcompare/pdf_compare_Backup.py     | ████████████ 427
-alculate thermal conductivity from db.py | ███████████ 421
- add measurements from all subfolders.py | ███████████ 408
-ot all thermal conductivities from db.py | ███████████ 399
-.../library_3omega.py                    | ██████████ 381
-.../library_3omega.py                    | ██████████ 381
-.../10_fine_solver.py                    | ██████████ 379
-.../10_steady_state_solver.py            | █████████ 348
-v3omega pairs by temperature plotting.py | █████████ 343
-.../9_fine_solver.py                     | █████████ 343
-/home/anton/heat-solver/9_fine_solver.py | █████████ 343
-.../9_rough_solver.py                    | █████████ 342
-.../anton/heat-solver/9_rough_solver.py  | █████████ 342
-d/v3omega pairs by temperature export.py | █████████ 334
-.../10_rough_solver.py                   | █████████ 334
- add measurements from all subfolders.py | █████████ 321
-nt_CN_adaptive_step_until_convergence.py | ████████ 303
-_solver_2d_optimized_rectangle_source.py | ████████ 302
+
+.../pdfcompare/pdf_diff_with_metadata.py | ████████████████████████████████████████ 516
+.../pdfcompare/pdf_compare_Backup.py     | █████████████████████████████████ 427
+alculate thermal conductivity from db.py | ████████████████████████████████ 421
+ add measurements from all subfolders.py | ███████████████████████████████ 408
+ot all thermal conductivities from db.py | ██████████████████████████████ 399
+.../library_3omega.py                    | █████████████████████████████ 381
+.../library_3omega.py                    | █████████████████████████████ 381
+.../10_fine_solver.py                    | █████████████████████████████ 379
+.../10_steady_state_solver.py            | ██████████████████████████ 348
+v3omega pairs by temperature plotting.py | ██████████████████████████ 343
+.../9_fine_solver.py                     | ██████████████████████████ 343
+/home/anton/heat-solver/9_fine_solver.py | ██████████████████████████ 343
+.../9_rough_solver.py                    | ██████████████████████████ 342
+.../anton/heat-solver/9_rough_solver.py  | ██████████████████████████ 342
+d/v3omega pairs by temperature export.py | █████████████████████████ 334
+.../10_rough_solver.py                   | █████████████████████████ 334
+ add measurements from all subfolders.py | ████████████████████████ 321
+nt_CN_adaptive_step_until_convergence.py | ███████████████████████ 303
+_solver_2d_optimized_rectangle_source.py | ███████████████████████ 302
+.../heat-solver/8_steady_state_solver.py | ███████████████████████ 298
 ```
 
 
