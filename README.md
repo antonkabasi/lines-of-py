@@ -43,8 +43,8 @@ python lines_of_py.py [PATH] [OPTIONS]
 | `--ext "py,js,sh"`       | File extensions to include (default: `py`).                          |
 | `--ignore-duplicates`    | Count only unique lines across all files.                            |
 | `--verbose`              | Print progress every 100 files.                                      |
-| `--verbose-all`          | Print progress for every single file (useful when narrowing down     | 
-|                          | unwanted scan                                                        |
+| `--verbose-all`          | Print progress for every single file (useful when narrowing down      
+|                           unwanted scan                                                        |
 | `--estimate-hours N`     | LOC per hour rate for time estimation (default: 50).                 |
 | `--top-files N`          | Show the top N files by raw line count.                              |
 | `--hist-limit N`         | Number of entries in the ASCII histogram (default: 10).              |
@@ -151,4 +151,4 @@ _solver_2d_optimized_rectangle_source.py | ████████████�
 
 ## License
 
-This project is licensed under the [MIT License].  
+This project is licensed under the [MIT License](LICENSE).
