@@ -1,13 +1,13 @@
 # lines-of-py
 
-A simple CLI tool to count all your Python lines of code—and help you estimate the “time invested” in Python over the years.
+A simple CLI tool to count all your Python (supports other extensions!) lines of code—and help you estimate the “time invested” in Python over the years.
 
 > **Why?**  
-> I wondered: how many hours have I actually spent coding in Python? 
+> I wondered: how many hours have I actually spent coding in Python during my PhD as an experimental physicist? 
 
-Counting lines of code is a rough estimate for time spent. This tool lets you scan your folders, see progress as it runs, and gradually refine what to include or exclude using the CLI. In a few iterations you can really nail down the actual number.  
+> Counting lines of code is a rough estimate for time spent. This tool lets you scan your folders, see progress as it runs, and gradually refine what to include or exclude using the CLI. In a few iterations you can really nail down the actual number.  
 
-> It also supports counting only unique lines, generating reports, top-file histograms, and time estimates.
+> It also supports counting only unique lines to avoid counting repeated boilerplate, generating reports, top-file histograms, and time estimates.
 
 > Counts files ending in .py by default, but you can scan other extensions (js, sh, etc.) via --ext.
 ---
@@ -33,7 +33,7 @@ python lines_of_py.py [PATH] [OPTIONS]
 ```
 
 - **PATH**  
-  Directory to scan. Defaults to your home folder (`$HOME` or `%USERPROFILE%`).
+  Directory to scan. Defaults to your home folder (`$HOME` or `%USERPROFILE%`depending on OS).
 
 ### Options
 
@@ -51,7 +51,6 @@ python lines_of_py.py [PATH] [OPTIONS]
 | `--report FILE.md`       | Write a Markdown report (totals, estimates, top-files, histogram)    |
 |                          | to `FILE.md`.                                                        |
 | `-h`, `--help`           | Show help message and exit.                                          |
-|-------------------------------------------------------------------------------------------------|
 
 
 
@@ -82,7 +81,7 @@ python lines_of_py.py [PATH] [OPTIONS]
    ```bash
    python lines_of_py.py --ignore-duplicates
    ```
-   See unique vs. total LOC to understand boilerplate.
+   See unique vs. total LOC to notice how much time you spend writing boilerplate.
 
 6. **Top files & histogram**  
    ```bash
@@ -126,7 +125,6 @@ python lines_of_py.py \
 - /home/anton/measurements-sqlite/good stuff/make db/1 add measurements from all subfolders.py: 408
 
 ## Histogram (top 20 files by raw lines)
-```
 /home/anton/anton-github-site/conf.py    | ████████████████████████████████████████ 1415
 .../pdfcompare/pdf_diff_with_metadata.py | ██████████████ 516
 .../pdfcompare/pdf_compare_Backup.py     | ████████████ 427
@@ -152,4 +150,4 @@ _solver_2d_optimized_rectangle_source.py | ████████ 302
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed under the [MIT License].  
