@@ -47,8 +47,7 @@ python lines_of_py.py [PATH] [OPTIONS]
 | `--estimate-hours N`     | LOC per hour rate for time estimation (default: 50).                 |
 | `--top-files N`          | Show the top N files by raw line count.                              |
 | `--hist-limit N`         | Number of entries in the ASCII histogram (default: 10).              |
-| `--report FILE.md`       | Write a Markdown report (totals, estimates, top-files, histogram)    |
-|                          | to `FILE.md`.                                                        |
+| `--report FILE.md`       | Write a Markdown report (totals, estimates, top-files, histogram) to `FILE.md`.                                                        |
 | `-h`, `--help`           | Show help message and exit.                                          |
 
 
